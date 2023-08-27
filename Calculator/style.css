@@ -1,0 +1,75 @@
+body{
+    margin: auto;
+    padding: auto;
+    align-items: center;
+    background-color: rgb(38, 42, 66);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.box{
+    margin: 15px;
+    padding: 2px;
+    border: 2px solid black;
+    width: 450px;
+    height: 610px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: rgba(74, 57, 57, 0.675);
+    
+}
+input{
+    border: 1px solid rgb(39, 23, 23);
+    background-color: aliceblue;
+    color: black;
+    width: 380px;
+    padding: 24px;
+    margin: 10px;
+    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    grid-column: 1 / span 4;
+}
+.cal-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 440px;
+    margin: 5px;
+    padding: px;
+    
+}
+button{
+    width: 89px;
+    height: 86px;
+    border-radius: 25%;
+    font-size: 30px;
+    margin: 5px;
+    padding: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+#ac{
+    background-color: rgb(228, 203, 38);
+    color: rgb(15, 27, 27);
+}
+#del{
+    background-color: rgb(231, 13, 13);
+    color: azure;
+}
+.dot{
+    background-color: rgb(13, 10, 10);
+    color: azure;
+}
+.case{
+    background-color: rgb(73, 73, 239);
+    color: azure;
+}
+#equal{
+    background-color: rgb(217, 146, 12);
+    color: rgb(14, 13, 13);
+}
